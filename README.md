@@ -76,6 +76,8 @@ code.decodeQr(); //Decode the QR and extract the message and relevant informatio
 
 ### Examples:
 
+### Images:
+
 ```java
 qrCode code = new qrCode("qr3.jpg");
  ```
@@ -123,6 +125,85 @@ __Highlighted Image:__
 __QR Representation (Not So Accurate):__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr6_qr_representation.jpg" width=300>
+
+### Message Extraction
+
+```java
+qrCode code = new qrCode("qr1.jpg");
+ ```
+ __QR Representation:__
+ 
+ <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr1_qr_representation.jpg" width=300>
+ 
+ __QR Decoder Output:__
+ 
+ ```bash
+Version Number: 1
+Mask Code: 001 (1)
+Error Correction Level: 10 (H)
+Encoding Type: 100 (Byte)
+Character Count Indicator Length: 8
+Qr Length: 8
+Message: Hello :)
+ ```
+ 
+ ```java
+qrCode code = new qrCode("qr4.jpg");
+ ```
+ __QR Representation:__
+ 
+ <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr4_qr_representation.jpg" width=300>
+ 
+ __QR Decoder Output:__
+ 
+ ```bash
+Version Number: 2
+Mask Code: 110 (6)
+Error Correction Level: 10 (H)
+Encoding Type: 100 (Byte)
+Character Count Indicator Length: 8
+Qr Length: 23
+Message: http://www.qrstuff.com/
+ ```
+ 
+ ```java
+qrCode code = new qrCode("qr14.jpg");
+ ```
+ __QR Representation:__
+ 
+ <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr14_qr_representation.jpg" width=300>
+ 
+ __QR Decoder Output:__
+ 
+ ```bash
+Version Number: 2
+Mask Code: 110 (6)
+Error Correction Level: 10 (H)
+Encoding Type: 100 (Byte)
+Character Count Indicator Length: 8
+Qr Length: 28
+Message: http://en.qrwp.mrg/Juan_Mirm
+ ```
+ 
+ ```java
+qrCode code = new qrCode("qr16.jpg");
+ ```
+ __QR Representation:__
+ 
+ <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr16_qr_representation.jpg" width=300>
+ 
+ __QR Decoder Output:__
+ 
+ ```bash
+Version Number: 2
+Mask Code: 010 (2)
+Error Correction Level: 10 (H)
+Encoding Type: 100 (Byte)
+Character Count Indicator Length: 8
+Qr Length: 23
+Message: http://www.egr.msu.edu/
+ ```
+ 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
