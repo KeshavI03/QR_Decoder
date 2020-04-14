@@ -8,10 +8,31 @@ This project is a basic Java implementation qr detection used in modern qr appli
 - Huge thanks to Andrew Fuller for his blog [Decoding small QR codes by hand](https://blog.qartis.com/decoding-small-qr-codes-by-hand/) for help on masking patterns
 - Finally, a huge thanks to [Thonky.com](https://www.thonky.com/qr-code-tutorial/) for explaination of text encoding and module placement
 
-## Features
+## Instalation
+Download the zip file of the project and extract the contents </br>
+- If you want to run tester.java example file, copy the four classes in the decoder class into the usage folder
+- If you are working in Eclipse, right click on your source package, click Import, and select the decoder folder you imported, then recompile
+
+Importing in Java:
+```java
+
+import package_name.decoder.*;
+
+```
+OR
+```java
+
+import package_name.decoder.Pixel;
+import package_name.decoder.point;
+import package_name.decoder.qrCode;
+import package_name.decoder.qrDecoder;
+
+```
 
 ## Usage
 
+- Create folder named "images" in the same folder as your main class, in which you place the images you want to extract a QR Code from
+- If you call ```drawImage();``` and/or ```drawQRImage(15);```, then create a folder named "images output" in the same folder as your main class, and within that two folders named "highlights" and "representations". These folders will contain the outputs of the two methods respectively
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
