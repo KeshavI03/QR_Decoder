@@ -76,7 +76,9 @@ code.decodeQr(); //Decode the QR and extract the message and relevant informatio
 
 ### Examples:
 
-- file_name = "qr3.jpg"
+```java
+qrCode code = new qrCode("qr3.jpg");
+ ```
 
 Image loaded:
 
@@ -90,7 +92,9 @@ QR Representation:
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr3_qr_representation.jpg" width=300>
 
-- file_name = "qr20.jpg"
+```java
+qrCode code = new qrCode("qr20.jpg");
+ ```
 
 Image loaded:
 
@@ -104,7 +108,9 @@ QR Representation:
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr20_qr_representation.jpg" width=300>
 
-- file_name = "qr6.jpg"
+```java
+qrCode code = new qrCode("qr6.jpg");
+ ```
 
 Image loaded:
 
