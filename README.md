@@ -33,9 +33,46 @@ import package_name.decoder.qrDecoder;
 ```
 
 ## Usage
-
+Starting off:
 - Create folder named "images" in the same folder as your main class, in which you place the images you want to extract a QR Code from
-- If you call the ```drawImage();``` and/or ```drawQRImage(15);``` methods, then create a folder named "images output" in the same folder as your main class, and within that two folders named "highlights" and "representations". These folders will contain the outputs of the two methods respectively
+- If you call the ```drawImage();``` and/or ```drawQRImage(int boxSize);``` methods, then create a folder named "images output" in the same folder as your main class, and within that two folders named "highlights" and "representations". These folders will contain the outputs of the two methods respectively
+
+Declare a QR Code Object:
+
+```java
+qrCode code = new qrCode("file_name");
+//Note, file_name is relative to the images folder i.e path is C:/path_to_project/images/file_name
+//Further constructors can be found in the qrCode.java file
+```
+Load Image:
+
+```java
+code.loadImage(); //Fills in image array
+```
+
+Decode Image:
+
+```java
+code.decodeImage(); //Decode image and fill boolean array of dimmension nxn (qr version)
+```
+
+Draw Highlighted Image:
+
+```java
+code.drawImage(); //Draw black and white image with bounding boxes
+```
+
+Draw Extracted QR:
+
+```java
+code.drawQRImage(int n); //Draws an image of the qr code with each block being of size n
+```
+
+Decode QR:
+
+```java
+code.decodeQr(); //Decode the QR and extract the message and relevant information on the QR
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
