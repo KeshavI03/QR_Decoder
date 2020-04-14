@@ -32,7 +32,7 @@ import package_name.decoder.qrDecoder;
 ## Usage
 
 - Create folder named "images" in the same folder as your main class, in which you place the images you want to extract a QR Code from
-- If you call ```drawImage();``` and/or ```drawQRImage(15);```, then create a folder named "images output" in the same folder as your main class, and within that two folders named "highlights" and "representations". These folders will contain the outputs of the two methods respectively
+- If you call the ```drawImage();``` and/or ```drawQRImage(15);``` methods, then create a folder named "images output" in the same folder as your main class, and within that two folders named "highlights" and "representations". These folders will contain the outputs of the two methods respectively
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
