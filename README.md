@@ -78,6 +78,8 @@ code.decodeQr(); //Decode the QR and extract the message and relevant informatio
 
 ### Images:
 
+__Constructor:__
+
 ```java
 qrCode code = new qrCode("qr3.jpg");
  ```
@@ -94,6 +96,8 @@ __QR Representation:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr3_qr_representation.jpg" width=300>
 
+__Constructor:__
+
 ```java
 qrCode code = new qrCode("qr20.jpg");
  ```
@@ -109,6 +113,8 @@ __Highlighted Image:__
 __QR Representation:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr20_qr_representation.jpg" width=300>
+
+__Constructor:__
 
 ```java
 qrCode code = new qrCode("qr6.jpg");
@@ -127,6 +133,8 @@ __QR Representation (Not So Accurate):__
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr6_qr_representation.jpg" width=300>
 
 ### Message Extraction
+
+__Constructor:__
 
 ```java
 qrCode code = new qrCode("qr1.jpg");
@@ -147,6 +155,8 @@ Qr Length: 8
 Message: Hello :)
  ```
  
+ __Constructor:__
+
  ```java
 qrCode code = new qrCode("qr4.jpg");
  ```
@@ -166,6 +176,8 @@ Qr Length: 23
 Message: http://www.qrstuff.com/
  ```
  
+ __Constructor:__
+
  ```java
 qrCode code = new qrCode("qr14.jpg");
  ```
@@ -185,6 +197,8 @@ Qr Length: 28
 Message: http://en.qrwp.mrg/Juan_Mirm
  ```
  
+ __Constructor:__
+
  ```java
 qrCode code = new qrCode("qr16.jpg");
  ```
