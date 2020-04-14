@@ -74,6 +74,50 @@ Decode QR:
 code.decodeQr(); //Decode the QR and extract the message and relevant information on the QR
 ```
 
+### Examples:
+
+- file_name = "qr3.jpg"
+
+Image loaded:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr3.JPG" width=400>
+
+Highlighted Image:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr3_analyzed.jpg" width=400>
+
+QR Representation:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr3_qr_representation.jpg" width=400>
+
+- file_name = "qr20.jpg"
+
+Image loaded:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr20.JPG" width=400>
+
+Highlighted Image:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr20_analyzed.jpg" width=400>
+
+QR Representation:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr20_qr_representation.jpg" width=400>
+
+- file_name = "qr6.jpg"
+
+Image loaded:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr6.JPG" width=400>
+
+Highlighted Image:
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr6_analyzed.jpg" width=400>
+
+QR Representation (Not So Accurate):
+
+<img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr6_qr_representation.jpg" width=400>
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
