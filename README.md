@@ -1,6 +1,9 @@
 # QR_Decoder
-## Introduction/Note
-This project is a basic Java implementation qr detection used in modern qr applications that looks to achieve basic functionality and usage. Note, this projects aims to be an intro to qr systems, and so, does not provide the adaptability and versatility of modern systems. As a result, it performs notably worse at detecting qr codes that are large versions, far away, rotated, or at angles. Improving the detection system is one of the possible improvements that can be made to this system.
+## Introduction
+This project is a basic Java implementation qr detection used in modern qr applications that looks to achieve basic functionality and usage
+
+## Note
+This projects aims to be an intro to qr systems, and so, does not provide the adaptability and versatility of modern systems. As a result, it performs notably worse at detecting qr codes that are large versions, far away, rotated, or at angles. Improving the detection system is one of the possible improvements that can be made to this system. Secondly, the current version is only able to decode up to version 2 QR codes. This may change in the future.
 
 
 ## Sources
