@@ -29,7 +29,7 @@ abstract class qrDecoder {
 		
 		encMode = upScan(qr.length-1, qr.length-1, 2);
 		
-		System.out.println(Integer.toBinaryString(encMode) + " (" + encoding(encMode) + ")");
+		System.out.println("Encoding Type: " + Integer.toBinaryString(encMode) + " (" + encoding(encMode) + ")");
 		System.out.println("Character Count Indicator Length: " + characterCountIndicatorLength());
 		
 		if(version == 1) {
