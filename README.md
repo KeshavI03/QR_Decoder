@@ -80,15 +80,15 @@ code.decodeQr(); //Decode the QR and extract the message and relevant informatio
 qrCode code = new qrCode("qr3.jpg");
  ```
 
-Image loaded:
+__Image loaded:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr3.JPG" width=300>
 
-Highlighted Image:
+__Highlighted Image:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr3_analyzed.jpg" width=300>
 
-QR Representation:
+__QR Representation:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr3_qr_representation.jpg" width=300>
 
@@ -96,15 +96,15 @@ QR Representation:
 qrCode code = new qrCode("qr20.jpg");
  ```
 
-Image loaded:
+__Image loaded:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr20.JPG" width=300>
 
-Highlighted Image:
+__Highlighted Image:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr20_analyzed.jpg" width=300>
 
-QR Representation:
+__QR Representation:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr20_qr_representation.jpg" width=300>
 
@@ -112,15 +112,15 @@ QR Representation:
 qrCode code = new qrCode("qr6.jpg");
  ```
 
-Image loaded:
+__Image loaded:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images/qr6.JPG" width=300>
 
-Highlighted Image:
+__Highlighted Image:__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/highlights/qr6_analyzed.jpg" width=300>
 
-QR Representation (Not So Accurate):
+__QR Representation (Not So Accurate):__
 
 <img src="https://github.com/KeshavI03/QR_Decoder/blob/master/QR%20Reader/usage/images%20output/representations/qr6_qr_representation.jpg" width=300>
 
